@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.main-container{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    height: 70vh;
+}
+.header-container{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 24px;
+}
+.header-container a{
+    text-decoration: none;
+    color: #222;
+}
+
+#nine-dats img{
+    height: 30px;
+    border-radius: 20px;
+
+}
+#nine-dats img:hover{
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+
+}
+#name-icon img{
+    border-radius: 40px;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 20px;
+
+}
+.logo{
+    position: relative;
+    max-height: 92px;
+
+}
+.logo img{
+    height: 92px;
+
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.search input {
+    display: flex;
+    height: 35px;
+    width: 500px;
+    max-width: 500px;
+    padding-left: 60px ;
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    padding: 12px;
+    font-size: 1rem;
+    
+
+}
+.search i{
+    
+
+}
+.fa-magnifying-glass{
+    margin-right: -40px;
+    z-index: 1;
+}
+.fa-microphone{
+    margin-left: -40px;
+    z-index: inherit;
+}
+.search input:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    transition: all ease-in 200ms;
+}
+
+.button-area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+}
+.button-area button{
+    padding: 8px;
+    border-style: none;
+    
+}
+.button-area button:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.083) 0px 5px 15px;
+    border-radius: 4px;
+}
+.credit-area{
+    font-size: 0.8rem;
+}
+.credit-area a{
+    text-decoration: none;
+    color: darkblue;
+
+}
+.credit-area a:hover{
+    text-decoration: underline;
+    transition: ease-in 2s;
+}
